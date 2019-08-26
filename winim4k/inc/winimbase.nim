@@ -5,14 +5,7 @@
 #
 #====================================================================
 
-import macros, os
-
-when not defined(noRes):
-  when defined(cpu64):
-    {.link: currentSourcePath().parentDir & "/../lib/winim64.res".}
-
-  else:
-    {.link: currentSourcePath().parentDir & "/../lib/winim32.res".}
+import macros
 
 macro winapi*(x: untyped): untyped =
   when not defined(noDiscardableApi):
