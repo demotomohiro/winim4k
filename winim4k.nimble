@@ -2,7 +2,7 @@
 
 version       = "3.2.2"
 author        = "Ward"
-description   = "Winim - Nim\'s Windows API and COM Library"
+description   = "Winim4k - Nim\'s Windows API and COM Library for 4k intro"
 license       = "MIT"
 skipDirs      = @["examples", "tests", "docs", "tcclib"]
 bin           = @["winim/winimx"]
