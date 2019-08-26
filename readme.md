@@ -1,4 +1,14 @@
-# Winim
+# Winim4k
+
+This project is forked from [Winim](https://github.com/khchen/winim).
+I edited some code so that it can be used to develop 4k intro.
+
+- Change project name to Winim4k
+- Remove os module from winim/inc/winimbase.nim
+- Rename winim directory to winim4k and winim.nimble to winim4k.nimble
+- Add these text to readme.md
+
+Following text is from original Winim project as is.
 
 Winim contains Windows API, struct, and constant definitions for Nim. The definitions are translated from MinGW's Windows headers.
 
