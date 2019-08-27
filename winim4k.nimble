@@ -5,7 +5,7 @@ author        = "Ward"
 description   = "Winim4k - Nim\'s Windows API and COM Library for 4k intro"
 license       = "MIT"
 skipDirs      = @["examples", "tests", "docs", "tcclib"]
-bin           = @["winim/winimx"]
+#bin           = @["winim4k/winimx"]
 
 # Dependencies
 
